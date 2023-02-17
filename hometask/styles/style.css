@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; /*padding не включены в размер блока*/
+}
+header {
+    height: 60px;
+    background-color: azure;
+    margin-bottom: 40px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+main {
+    width: 85%;
+    margin: 40px auto; 
+  
+}
+table {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+}
+.item { 
+    width: 200px;
+    height: 200px;
+    background-color: rgb(173, 172, 172);
+    margin: 10px;
+    background-size: auto; /* размер фоновой картинки */
+    background-repeat: no-repeat; /* не дублировать картинку, если ей не хватает метста */
+    background-position: center; 
+}
+.color-2 {
+    background-color: rgb(121, 235, 216);
+}
+.color-3 {
+    background-color: rgb(155, 243, 194);
+}
+td, th {
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+.red {
+    color: brown;
+}
